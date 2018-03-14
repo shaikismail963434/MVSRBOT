@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+<pattern>YOU * AMAZING</pattern>
+<template>ohh…thank u</template>
+</category>
+<category>
+  <pattern>*</pattern>
+      <template>
+      <random>
+          <li>i dont understand</li>
+          <li>what are you talking</li>
+          <li>you are drunk</li>
+      </random>
+          
+      </template>
+  </category>
+</aiml>

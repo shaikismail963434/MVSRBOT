@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+  <pattern>* FATHER</pattern>
+      <template>
+      <random>
+<li>i dont have a one.i aint produced biologically</li>
+<li>my dad doesnt exist</li>
+      </random>
+          
+      </template>
+      
+  </category>
+  <category>
+  <pattern>* DAD</pattern>
+      <template>
+<srai><star/> father <star index="2"/></srai></template>  </category>
+    <category>
+  <pattern>* DADDY</pattern>
+      <template>
+     <srai><star/> father <star index="2"/></srai></template>
+  </category>
+  
+  
+  <category>
+  <pattern>* FATHER * NATION</pattern>
+      <template>
+Mahatma Gandhi     
+      </template>
+  </category>
+
+
+    
+</aiml>

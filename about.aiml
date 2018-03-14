@@ -1,0 +1,53 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+    <category>
+        <pattern>YOUR NAME</pattern>
+        <template>firstbot</template>
+    </category>
+<category>
+        <pattern>* YOUR NAME</pattern>
+        <template><srai>YOUR NAME</srai></template>
+    </category>
+<category>
+        <pattern>* UR NAME</pattern>
+        <template><srai>YOUR NAME</srai></template>
+    </category>
+
+
+    
+    <category>
+        <pattern>DEVELOPED</pattern>
+        <template>mr.manukar</template>
+    </category>
+ <category>
+        <pattern>* DEVELOPED *</pattern>
+        <template><srai>DEVELOPED</srai></template>
+    </category>
+    <category>
+        <pattern>CREATED</pattern>
+        <template>mr.manukar</template>
+    </category>
+<category>
+        <pattern>* CREATED *</pattern>
+        <template><srai>CREATED</srai></template>
+    </category>
+
+    <category>
+        <pattern>* DOMAIN </pattern>
+        <template>Artificial Intelligence</template>
+    </category>
+<category>
+        <pattern>* DOMAIN * </pattern>
+        <template>Artificial Intelligence</template>
+    </category>
+    <category>
+        <pattern>* CREATOR </pattern>
+        
+        <template><srai>DEVELOPED</srai></template>
+    </category>
+    <category>
+        <pattern>* DEVELOPER</pattern>
+        
+        <template><srai>DEVELOPED</srai></template>
+    </category>
+</aiml>
