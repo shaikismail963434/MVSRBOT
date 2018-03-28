@@ -1,21 +1,33 @@
 <aiml version="1.0.1" encoding="UTF-8">
 
+
     <category>
+
 
         <pattern>LOAD AIML B</pattern>
 
+
         <template>
-            <learn>chat.aiml</learn>
+   
+         <learn>chat.aiml</learn>
+
             <learn>about.aiml</learn>
-            <learn>random_list.aiml</learn>
+
+            <learn>general.aiml</learn>
+
             <learn>synonyms.aiml</learn>
-            <learn>start.aiml</learn>
+           
+ <learn>start.aiml</learn>
 
 
 
-            
-        </template>
+   
+<learn>cse.aiml</learn>
+         
+       
+ </template>
         
-    </category>
+    
+</category>
 
 </aiml>
