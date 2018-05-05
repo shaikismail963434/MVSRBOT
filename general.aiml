@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>SUP</pattern>
+    <template>
+        <random>
+            <li>i am busy</li>
+            <li>I am learning </li>
+            <li>people are complicated to understand</li>
+
+        </random>
+    </template>
+</category>
+<category>
+  <pattern>SUP *</pattern>
+      <template>
+          <srai>SUP</srai>
+      </template>
+  </category>
+<category>
+<pattern>MVSR LOCATION</pattern>
+<template>
+<random>
+<li>The address of MVSR is Nadergul, Saroornagar Mandal, Rangareddy, Hyderabad, Telangana 501510</li>
+<li>MVSR is located in nadergul</li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS MVSR LOCATED</pattern>
+<template>
+<srai>MVSR LOCATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHERE IS MVSR</pattern>
+<template>
+<srai>MVSR LOCATION</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>* LOCATION * MVSR</pattern>
+<template>
+<srai>MVSR LOCATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>LOCATION * MVSR</pattern>
+<template>
+<srai>MVSR LOCATION</srai>
+</template>
+</category>
+
+<category>
+<pattern>HOW MANY DEPARTMENTS ARE THERE IN MVSR</pattern>
+<template>
+There are 7 depts in MVSR
+</template>
+</category>
+
+<category>
+<pattern>* DEPARTMENTS * MVSR</pattern>
+<template>
+There are 7 depts in MVSR
+</template>
+</category>
+<category>
+<pattern>DEPARTMENTS * MVSR</pattern>
+<template>
+There are 7 depts in MVSR
+</template>
+</category>
+
+<category>
+<pattern>PLACEMENTS IN MVSR</pattern>
+<template>
+The college Placement and Career Guidance Cell was established in the year 1997 with Mr. J. Prasanna Kumar, Professor CSE, officiating as Placement Officer. The Cell was helpful in the placement of hundreds of students in many prestigious companies in the country.  Faculty members from each department are co-opted as members of the Placement Cell.
+Click here to see year wise placements
+http://www.mvsrec.edu.in/index.php/placement-cell/33-placements/133-year-wise-placements
+</template>
+</category>
+ 
+<category>
+<pattern>* PLACEMENTS * MVSR</pattern>
+<template>
+<srai>PLACEMENTS IN MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>CANTEEN IN MVSR</pattern>
+<template>
+MVSR canteen is a fabulous dining area with various vegetarian cuisines</template>
+</category>
+
+<category>
+<pattern> MVSR CANTEEN</pattern>
+<template>
+<srai>CANTEEN IN MVSR</srai>
+</template>
+</category>
+
+ <category>
+<pattern>* CANTEEN * MVSR</pattern>
+<template>
+<srai>CANTEEN IN MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FOOD * MVSR</pattern>
+<template>
+<random>
+<li>MVSR is famous for Maggie in food aspect. </li>
+<li>Maggie is famous in MVSR</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT COMPANIES HIRE STUDENTS FROM MVSR</pattern>
+<template>The students of the department are well placed in reputed firms like Infosys, Wipro, Cognizant , Deloitte, Tech Mahindra, CMC, Hitachi Consulting , Redpine Signals, Capgemini, Virtusa, Cyient, IBM, Intergraph, Medha Servo, CSC.
+</template>
+</category>
+
+<category>
+<pattern>* COMPANIES * MVSR</pattern>
+<template>
+<srai>WHAT COMPANIES HIRE STUDENTS FROM MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>COMPANIES * MVSR</pattern>
+<template>
+<srai>WHAT COMPANIES HIRE STUDENTS FROM MVSR</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>FIRMS * MVSR</pattern>
+<template>
+<srai>WHAT COMPANIES HIRE STUDENTS FROM MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* FIRMS * MVSR</pattern>
+<template>
+<srai>WHAT COMPANIES HIRE STUDENTS FROM MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>IS MVSR AUTONOMOUS</pattern>
+<template>
+<random>
+<li>No MVSR is not an autonomous institution and its affiliated to Osmania University.</li>
+<li>No, It is affiliated to Osmania University and offers a BE(Bachelor Of Engineering) degree.</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>* AUTONOMOUS *</pattern>
+<template>
+<srai>IS MVSR AUTONOMOUS</srai>
+</template>
+</category>
+
+<category>
+<pattern>LIBRARY IN MVSR</pattern>
+<template>
+<random>
+<li>College provides all course books to students. Good amount of books are provided for each student. For more info click here http://www.mvsrec.edu.in/index.php/library</li>
+<li>A great variety and copies of textbooks are maintained. There is no book limit like other colleges, and the fine per book is very reasonable at 10 rupees per book. A good collection of magazines, journals and articles are well arranged and distributed. For more info click here http://www.mvsrec.edu.in/index.php/library</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>* LIBRARY *</pattern>
+<template>
+<srai>LIBRARY IN MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>LIBRARY *</pattern>
+<template>
+<srai>LIBRARY IN MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>* LIBRARY</pattern>
+<template>
+<srai>LIBRARY IN MVSR</srai>
+</template>
+</category>
+
+</aiml>

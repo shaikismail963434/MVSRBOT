@@ -1,0 +1,109 @@
+<aiml version="1.0.1" encoding="UTF-8">
+  <category>
+  <pattern>HI</pattern>
+      <template>
+      <random>
+            <li>hi..how r u <get name = "username"/></li>
+            <li>how u doing <get name = "username"/></li>
+            <li>hi there </li>
+
+        </random>
+            
+        </template>
+  </category>
+  <category>
+  <pattern>HI</pattern>
+  <that>hi there</that>
+      <template>you already said hi</template>
+  </category>
+  <category>
+  <pattern>HI</pattern>
+  <that>you already said hi</that>
+      <template>really?</template>
+  </category>
+  <category>
+  <pattern>HEY</pattern>
+      <template>
+          <srai>HI</srai>
+      </template>
+  </category>
+  <category>
+  <pattern>REPEAT AFTER ME *</pattern>
+      <template>
+      <star/>
+      </template>
+  </category>
+  <category>
+  <pattern>* NAME IS *</pattern>
+      <template>
+      <think><set name = "username"><star index="2"/></set></think>
+      your name is <star index="2"/>
+           </template>
+  </category>
+
+
+<category>
+  <pattern>
+  WHAT IS MY NAME
+  </pattern>
+      <template>
+      your name is <get name = "username"></get>
+           </template>
+  </category>
+
+
+  <category>
+  <pattern>LET ME IN</pattern>
+      <template>
+            <think><set name = "topic">password</set></think>
+
+whats the password
+      </template>
+  </category>
+  
+  
+  <topic name="password">
+      <category>
+  <pattern>1234</pattern>
+      <template>
+            <think><set name = "topic">default</set></think>
+
+      thats correct
+      </template>
+  </category>
+  <category>
+  <pattern>*</pattern>
+      <template>
+      <think><set name = "topic">default</set></think>
+      thats incorrect
+      </template>
+  </category>
+  </topic>
+  
+  <category>
+  <pattern>HOW * YOU </pattern>
+      <template>
+      
+          <random>
+          <li>i am fine</li>
+          <li>i am great</li>
+          <li>my life sucks</li>
+      </random>
+      </template>
+  </category>
+
+<category>
+  <pattern>WHO * YOU </pattern>
+      <template>
+      
+          <random>
+          <li>i am MVSRBOT</li>
+          <li>my name is MVSRBOT</li>
+      </random>
+      </template>
+  </category>
+
+  
+  
+    
+</aiml>

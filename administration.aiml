@@ -1,0 +1,112 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+
+<category>
+<pattern>PRINCIPAL OF MVSR</pattern>
+<template>Dr. G.Kanakadurga has been working in this college since  1991. Her area of specialization is Low Power VLSI Design. She took charge as principal on 29-Nov-2017. She is a professor in ECE Department.
+</template>
+</category>  
+
+
+<category>
+<pattern>* PRINCIPAL * MVSR</pattern>
+<template>
+<srai>PRINCIPAL OF MVSR</srai>
+</template>
+</category>    
+    
+<category>
+<pattern>MVSR PRINCIPAL</pattern>
+<template>
+<srai>PRINCIPAL OF MVSR</srai>
+</template>
+</category> 
+
+<category>
+<pattern>VICE PRINCIPAL OF MVSR</pattern>
+<template>Prof. S.G.S. Murthy joined this college on FEB 3 1986 as an Asst. Professor after a stint in M/s L and T. He has graduated in Civil Engineering from college of Engineering of O.U. in 1983. His areas of interest are Structural analysis and high performance concrete.
+
+</template>
+</category>  
+
+
+<category>
+<pattern>* VICE PRINCIPAL * MVSR</pattern>
+<template>
+<srai>VICE PRINCIPAL OF MVSR</srai>
+</template>
+</category>    
+    
+<category>
+<pattern>MVSR VICE PRINCIPAL</pattern>
+<template>
+<srai>VICE PRINCIPAL OF MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>MVSR MANAGEMENT</pattern>
+<template>Matrusri Education Society was founded in 1980 by a group of visionaries and philanthropists such as Arshadharmasri Late Sri. Maturi Venkata Subba Rao as Founder Secretary, Sri. Maturi Gopala Rao, the Architect of Nagarjunasagar Dam as Founder Chairman, besides persons of eminence who were industrialists, doctors, businessmen, administrators and advocates.
+
+The Society first established Maturi Venkata Subba Rao Engineering College or MVSR Engineering College in 1981 which is now located in a sprawling campus at Nadergul, RR Dist. TS. For more information visit http://www.mvsrec.edu.in/index.php/management/society
+</template>
+</category>
+
+<category>
+<pattern>* MANAGEMENT * MVSR</pattern>
+<template>
+<srai>MVSR MANAGEMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>MANAGEMENT * MVSR</pattern>
+<template>
+<srai>MVSR MANAGEMENT</srai>
+</template>
+</category>
+
+<category>
+<pattern>CHAIRMAN OF MVSR</pattern>
+<template>Dr. K. P. Srinivas Rao, MBBS, MS (Ophthalmology) was a Gold medalist in M.S. from Chennai. He did his Fellowship at Moorfield Eye Hospital at London. He presented various papers in Ophthalmology in national and international conferences and in International Laser Conference. Presently he is the Vice Chairman of Sridevi Educational Society. He has his own clinic Century Eye Care Centre at Vijayanagar Colony, Hyderabad. He has conducted several free eye care campus at Hyderabad, Chennai and Ananthpur.
+</template>
+</category>  
+
+
+<category>
+<pattern>* CHAIRMAN * MVSR</pattern>
+<template>
+<srai>PRINCIPAL OF MVSR</srai>
+</template>
+</category>    
+    
+<category>
+<pattern>MVSR CHAIRMAN</pattern>
+<template>
+<srai>PRINCIPAL OF MVSR</srai>
+</template>
+</category>
+
+<category>
+<pattern>VICE CHAIRMAN OF MVSR</pattern>
+<template>Sri. M. Krishna Kumar was born on 25th December 1953. He is a multi post - graduate with degrees ranging from M.Com., M.Sc., (App. Pscychology), M.B.A. (Finance), Masters in law and Post Graduate Diploma in Finance and Human Resources Management. He is a Executive in a public sector undertaking. He has varied interests in reading books on Philosophy and Psychology. He is the chairman of Academic affairs and Legal Committee. 
+</template>
+</category>  
+
+
+<category>
+<pattern>* VICE CHAIRMAN * MVSR</pattern>
+<template>
+<srai>PRINCIPAL OF MVSR</srai>
+</template>
+</category>    
+    
+<category>
+<pattern>MVSR VICE CHAIRMAN</pattern>
+<template>
+<srai>PRINCIPAL OF MVSR</srai>
+</template>
+</category>
+
+
+</aiml>

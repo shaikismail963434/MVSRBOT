@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+<category>
+  <pattern>* FATHER</pattern>
+      <template>
+      <random>
+<li>i dont have a one.i aint produced biologically</li>
+<li>my dad doesnt exist</li>
+      </random>
+          
+      </template>
+      
+  </category>
+  <category>
+  <pattern>* DAD</pattern>
+      <template>
+<srai><star/> father <star index="2"/></srai></template>  </category>
+    <category>
+  <pattern>* DADDY</pattern>
+      <template>
+     <srai><star/> father <star index="2"/></srai></template>
+  </category>
+  <category>
+  <pattern>* DEPT</pattern>
+      <template>
+<srai><star/> DEPARTMENT <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>* DEPTS</pattern>
+      <template>
+<srai><star/> DEPARTMENTS <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>* COMPUTER SCIENCE</pattern>
+      <template>
+<srai><star/> CSE <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>* COMPUTER SCIENCE ENGINEERING</pattern>
+      <template>
+<srai><star/> CSE <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>* ADDRESS</pattern>
+      <template>
+<srai><star/> LOCATION <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>ADDRESS *</pattern>
+      <template>
+<srai><star/> LOCATION <star index="1"/></srai></template>  </category>
+  
+  <category>
+  <pattern>* FATHER * NATION</pattern>
+      <template>
+Mahatma Gandhi     
+      </template>
+  </category>
+
+<category>
+  <pattern>* ADMINISTRATION</pattern>
+      <template>
+<srai><star/> MANAGEMENT <star index="2"/></srai></template>  </category>
+
+    
+<category>
+  <pattern>ADMINISTRATION *</pattern>
+      <template>
+<srai><star/> MANAGEMENT <star index="1"/></srai></template>  </category>
+
+<category>
+  <pattern>* MVSREC</pattern>
+      <template>
+<srai><star/> MVSR <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>* MATURI VENKATA SUBBARAO ENGINEERING COLLEGE</pattern>
+      <template>
+<srai><star/> MVSR <star index="2"/></srai></template>  </category>
+
+<category>
+  <pattern>MVSREC *</pattern>
+      <template>
+<srai><star/> MVSR <star index="1"/></srai></template>  </category>
+
+<category>
+  <pattern>MATURI VENKATA SUBBARAO ENGINEERING COLLEGE *</pattern>
+      <template>
+<srai><star/> MVSR <star index="1"/></srai></template>  </category>
+
+
+</aiml>
